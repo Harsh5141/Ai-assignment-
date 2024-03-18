@@ -1,0 +1,9 @@
+// script.js
+document.addEventListener("DOMContentLoaded", function () {
+    const addToCartButton = document.getElementById("add-to-cart-button");
+
+    addToCartButton.addEventListener("click", function () {
+        // You can implement your cart logic here, e.g., adding the product to a cart object.
+        alert("Product added to cart!");
+    });
+});
